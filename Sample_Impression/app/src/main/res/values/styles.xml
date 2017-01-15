@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ListViewConfig" parent="Theme.AppCompat.NoActionBar">
+        <!--listView侧边隐藏滚动条 使用代码：setVerticalScrollBarEnabled(true);-->
+        <item name="android:scrollbars">none</item>
+        <!--去掉滑动到最后的蓝边 setOverScrollMode(OVER_SCROLL_NEVER);-->
+        <item name="android:overScrollMode">never</item>
+        <!--取消点击效果-->
+        <item name="android:listSelector">@android:color/transparent</item>
+        <!--去掉分割线-->
+        <item name="android:divider">@null</item>
+    </style>
+</resources>

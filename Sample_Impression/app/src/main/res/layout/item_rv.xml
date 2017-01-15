@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    
+    <com.mei_husky.sample_impression.view.ImpressionView
+        android:id="@+id/item_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp">
+    </com.mei_husky.sample_impression.view.ImpressionView>
+</LinearLayout>

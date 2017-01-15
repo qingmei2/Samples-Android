@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mei_husky.sample_impression.MainActivity">
+
+    <include layout="@layout/include_title_buttons"></include>
+
+<!--    <com.mei_husky.sample_impression.view.ImpressionView
+        android:id="@+id/iv_test"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        ></com.mei_husky.sample_impression.view.ImpressionView>-->
+
+
+    <android.support.v7.widget.RecyclerView
+        style="@style/ListViewConfig"
+        android:id="@+id/rv_impressions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
