@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/content_decoder"></include>
+
+    <Button
+        android:id="@+id/btn_b01_loading_reservation_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转换摄像头"/>
+
+</FrameLayout>
