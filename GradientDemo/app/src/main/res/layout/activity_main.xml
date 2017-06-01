@@ -8,8 +8,10 @@
     tools:context="com.mei_husky.gradientdemo.MainActivity">
 
     <com.mei_husky.gradientdemo.MyView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="-10dp" />
 
 </android.support.constraint.ConstraintLayout>
 
